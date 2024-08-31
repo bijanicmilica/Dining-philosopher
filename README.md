@@ -9,10 +9,11 @@ Program simulira problem Filozofa za stolom gde pet filozofa sedi za stolom i na
 ## Fajlovi
 
 - `program.c`: Glavni C izvorni fajl koji sadrži implementaciju rešenja problema Filozofa za stolom.
+- `Makefile`: Fajl koji definiše komande za automatsku kompilaciju i pokretanje programa.
 
 ## Kompilacija
 
 Da bi se kompajlirao ovaj program, koristi sledeću komandu:
 
 ```bash
-gcc -o filozofi program.c -lpthread
+make
